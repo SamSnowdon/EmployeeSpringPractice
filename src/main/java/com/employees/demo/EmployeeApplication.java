@@ -15,9 +15,6 @@ public class EmployeeApplication {
 		SpringApplication.run(EmployeeApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate getRestAPI(){
-		return new RestTemplateBuilder().build();
-	}
+
 
 }
